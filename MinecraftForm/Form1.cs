@@ -35,6 +35,10 @@ public partial class Form1 : Form
 
         inventario.Add(strumento);
         AggiornaTabella();
+
+        txtId.Clear();
+        txtNome.Clear();
+        txtValore.Clear();
     }
 
     private void btnAggiungiBlocco_Click(object sender, EventArgs e)
@@ -57,6 +61,10 @@ public partial class Form1 : Form
 
         inventario.Add(blocco);
         AggiornaTabella();
+
+        txtId.Clear();
+        txtNome.Clear();
+        txtValore.Clear();
     }
 
     private void AggiornaTabella()
